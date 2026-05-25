@@ -1,0 +1,59 @@
+[
+  {
+    "id": "quickstart",
+    "icon": "📖",
+    "name": "开始了解",
+    "desc": "5 分钟快速了解工作流是什么、能干什么",
+    "files": [
+      "multi-ai-workflow-skill/小白上手教程_5分钟看懂.txt",
+      "multi-ai-workflow-skill/版本迭代全记录.md"
+    ]
+  },
+  {
+    "id": "guide",
+    "icon": "📋",
+    "name": "使用指南",
+    "desc": "完整操作手册、流程图、Skill定义、技术规格",
+    "files": [
+      "multi-ai-workflow-skill/工作流指南/多AI协作工作流_完整操作指南.txt",
+      "multi-ai-workflow-skill/工作流指南/多AI协作工作流_完整流程图.txt",
+      "multi-ai-workflow-skill/工作流指南/多AI协作工作流_Mermaid.md",
+      "multi-ai-workflow-skill/工作流指南/多AI协作工作流_全景图.html",
+      { "name": "multi-ai-workflow", "children": [
+        "multi-ai-workflow-skill/multi-ai-workflow/SKILL.md",
+        { "name": "references", "children": [
+          "multi-ai-workflow-skill/multi-ai-workflow/references/spec.md",
+          "multi-ai-workflow-skill/multi-ai-workflow/references/usage-guide.md",
+          "multi-ai-workflow-skill/multi-ai-workflow/references/iteration.md"
+        ]}
+      ]}
+    ]
+  },
+  {
+    "id": "development",
+    "icon": "🔧",
+    "name": "开发历程",
+    "desc": "项目复盘、迭代方案、设计规格、制作流程",
+    "files": [
+      "工作流研制过程文档/项目复盘报告_双视角.md",
+      "工作流研制过程文档/v2迭代方案_星型中枢架构.md",
+      "工作流研制过程文档/v2方案系统性分析.md",
+      "工作流研制过程文档/工作流skill完整设计规格_最终版.md",
+      "工作流研制过程文档/数学建模skill制作流程.md"
+    ]
+  },
+  {
+    "id": "reference",
+    "icon": "💬",
+    "name": "参考对话",
+    "desc": "与 Gemini 的深度交互：方案分析、场景评估、成长规划",
+    "files": [
+      "Gemini交互上下文/01_工作流对比与价值分析.md",
+      "Gemini交互上下文/02_场景适用性分析.md",
+      "Gemini交互上下文/03_学术成长与竞赛规划.md",
+      "Gemini交互上下文/04_迭代建议与协作协议.md",
+      "Gemini交互上下文/05_上下文保存与恢复方案.md",
+      "Gemini交互上下文/06_项目启动文档_日程App_PRD.md"
+    ]
+  }
+]
